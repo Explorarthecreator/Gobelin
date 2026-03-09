@@ -14,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${ppneuemontreal.className} antialiased bg-white px-6 xl:px-0`}
-      >
+      <body className={`${ppneuemontreal.className} antialiased bg-white `}>
         {children}
       </body>
     </html>
