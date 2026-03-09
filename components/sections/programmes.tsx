@@ -1,4 +1,4 @@
-import { CheckCircle, CheckCircle2, ChevronRight } from "lucide-react";
+import { CheckCircle2, ChevronRight } from "lucide-react";
 import { Separator } from "../ui/separator";
 import Image from "next/image";
 import { Button } from "../ui/button";
