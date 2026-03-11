@@ -27,7 +27,7 @@ const StartJourney = () => {
           Start your GOBELINS Journey
         </Button>
 
-        <div className="bg-[#5B49EF] opacity-40 absolute -bottom-10 left-0 z-10">
+        <div className="opacity-40 absolute -bottom-10 left-0 z-10">
           <Image src={"/bottom.png"} alt="" width={500} height={500} />
         </div>
         <div className=" opacity-40 absolute top-0 right-0 z-10">
