@@ -1,7 +1,16 @@
 const Metrics = () => {
   return (
-    <section className=" bg-[url(/metrics.jpg)] bg-no-repeat bg-center lg:bg-cover h-180 lg:h-219.5 flex items-center justify-center">
-      <div className=" w-11/12 lg:w-4/5 space-y-10">
+    <section className="  h-180 relative overflow-hidden lg:h-219.5 flex items-center justify-center">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="/blue.mp4" type="video/mp4" />
+      </video>
+      <div className="relative z-10  w-11/12 lg:w-4/5 space-y-10">
         <div className="flex  justify-between">
           <div className="space-y-3">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
