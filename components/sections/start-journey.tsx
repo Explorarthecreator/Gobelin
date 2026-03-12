@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const StartJourney = () => {
   return (
-    <section>
+    <section className="py-15">
       <div className="max-w-340 m-auto px-6 xl:px-0 bg-[#5B49EF] rounded-[60px] py-40 text-center space-y-8 relative overflow-clip">
         <div className="max-w-150 m-auto text-center space-y-2 z-20 relative">
           <p className="uppercase text-white">ready to get started</p>

@@ -5,7 +5,7 @@ import { ChevronRight } from "lucide-react";
 
 const News = () => {
   return (
-    <section className="max-w-340 m-auto px-6 xl:px-0 space-y-10">
+    <section className="max-w-340 m-auto px-6 xl:px-0 space-y-10 py-30">
       <div className="max-w-162">
         <h1 className="font-medium text-[40px]">News & Updates</h1>
         <p className="text-[#787F87] text-[22px] font-light">
