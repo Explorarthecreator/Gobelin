@@ -1,4 +1,5 @@
 import About from "@/components/sections/about";
+import UpcomingEvent from "@/components/sections/event";
 import Hero from "@/components/sections/header";
 import Metrics from "@/components/sections/metrics";
 import News from "@/components/sections/news";
@@ -13,6 +14,7 @@ export default function Home() {
       <Metrics />
       <Programmes />
       <News />
+      <UpcomingEvent />
       <StartJourney />
     </main>
   );
