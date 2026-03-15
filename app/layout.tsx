@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ppneuemontreal } from "./font";
 import Footer from "@/components/sections/footer";
+import AosInitialiser from "./aos-initialiser";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ppneuemontreal.className} antialiased bg-white `}>
+      <body
+        className={`${ppneuemontreal.className} antialiased bg-white overflow-x-hidden`}
+      >
+        <AosInitialiser />
         {children}
         <Footer />
       </body>

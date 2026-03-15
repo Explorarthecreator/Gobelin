@@ -6,11 +6,11 @@ const About = () => {
   return (
     <section className="max-w-340 m-auto space-y-15 lg:space-y-30 px-6 xl:px-0 pt-15 mb-45">
       <div className="flex flex-col lg:flex-row">
-        <div className="lg:w-2/5">
+        <div className="lg:w-2/5" data-aos="fade-up">
           <h1 className="text-[40px] font-medium">About Us</h1>
         </div>
         <div className="lg:w-3/5 shrink-0 space-y-6">
-          <p className="text-[22px] text-justify">
+          <p className="text-[22px] text-justify" data-aos="fade-up">
             At Gobelins, we pride ourselves on our diverse range of programs,
             including character animation, 3D animation, & visual effects. Each
             course is designed to foster creativity & technical skills, allowing
@@ -22,12 +22,13 @@ const About = () => {
           <Button
             className="px-6 h-14 py-5 border-[#D9DBDD] cursor-pointer text-[#313437] font-normal rounded-full"
             variant={"outline"}
+            data-aos="fade-up"
           >
             Read About Us <ChevronRight color="#313437" size={16} />
           </Button>
         </div>
       </div>
-      <div className="">
+      <div className="" data-aos="zoom-in-up">
         <Image
           src={"/main.jpg"}
           width={1000}

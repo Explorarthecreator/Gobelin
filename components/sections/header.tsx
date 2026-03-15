@@ -4,8 +4,8 @@ import { Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="py-20">
-      <div className="h-[80vh] relative overflow-hidden max-w-340 m-auto px-6 xl:px-0 rounded-3xl">
+    <section className=" py-10 lg:py-20 px-6 xl:px-0" data-aos="fade-in">
+      <div className="h-[90vh] lg:h-[80vh] relative overflow-hidden max-w-340 m-auto  rounded-3xl">
         <video
           autoPlay
           loop
@@ -18,14 +18,18 @@ const Hero = () => {
 
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
-        <div className="relative z-10  h-full flex items-end p-10 text-white">
+        <div
+          className="relative z-10  h-full flex items-end p-3 lg:p-10 text-white"
+          data-aos="zoom-out-left"
+          data-aos-delay="200"
+        >
           <div className=" max-w-176.75">
             <div className="space-y-5">
               <div className="space-y-2">
                 <p className={`${geistMono.className} text-white`}>
                   WELCOME TO GOBELINS PARIS
                 </p>
-                <div className="space-y-3 text-center lg:text-left">
+                <div className="space-y-3 lg:text-left">
                   <h1 className={`font-medium text-5xl lg:text-[80px] `}>
                     Where the greatest{" "}
                     <span
@@ -73,7 +77,7 @@ const Hero = () => {
                   </p>
                 </div>
               </div>
-              <div className="space-x-4">
+              <div className="space-x-4 space-y-4">
                 <Button
                   className="px-6 h-14 py-5 border-[#D9DBDD] text-base cursor-pointer text-[#313437] font-normal rounded-full"
                   variant={"outline"}

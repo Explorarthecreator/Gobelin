@@ -7,13 +7,18 @@ const Programmes = () => {
   return (
     <section className="max-w-340 m-auto px-6 xl:px-0 space-y-10 py-30">
       <div className="max-w-162">
-        <h1 className="font-medium text-[40px]">Our Programmes</h1>
-        <p className="text-[#787F87] text-[22px] font-light">
+        <h1 className="font-medium text-[40px]" data-aos="fade-down">
+          Our Programmes
+        </h1>
+        <p className="text-[#787F87] text-[22px] font-light" data-aos="fade-up">
           Floor die open follow encourage bake ui ocean points every. Must can
           vendor comms streamline.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div
+        className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+        data-aos="fade-up-left"
+      >
         <div className="border flex flex-col justify-between gap-10 border-[#E4E5E7] rounded-[32px] p-7 hover:border-none  hover:bg-[radial-gradient(circle_at_center,#313437_22%,#2B2D30_38%,#18191B_76%)] group hover:drop-shadow-xl hover:drop-shadow-[#313437]">
           <div className="space-y-6">
             <div className="bg-[#ECF5FD] w-18 h-13 rounded-full flex justify-center items-center text-center">

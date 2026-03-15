@@ -12,14 +12,14 @@ const Metrics = () => {
       </video>
       <div className="relative z-10  w-11/12 lg:w-4/5 space-y-10">
         <div className="flex  justify-between">
-          <div className="space-y-3">
+          <div className="space-y-3" data-aos="fade-right">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
               84,000+
             </h1>
             <p className="text-white text-xl font-normal">Graduate Trained</p>
           </div>
 
-          <div className="text-right space-y-3">
+          <div className="text-right space-y-3" data-aos="fade-left">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
               60+
             </h1>
@@ -30,14 +30,14 @@ const Metrics = () => {
         </div>
 
         <div className="flex  justify-between">
-          <div className="space-y-3">
+          <div className="space-y-3" data-aos="fade-right">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
               38+
             </h1>
             <p className="text-white text-xl font-normal">Courses Offered</p>
           </div>
 
-          <div className="text-right space-y-3">
+          <div className="text-right space-y-3" data-aos="fade-left">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
               75+
             </h1>
@@ -48,7 +48,7 @@ const Metrics = () => {
         </div>
 
         <div className="flex  justify-between">
-          <div className="space-y-3">
+          <div className="space-y-3" data-aos="fade-right">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
               512+
             </h1>
@@ -57,7 +57,7 @@ const Metrics = () => {
             </p>
           </div>
 
-          <div className="text-right space-y-3">
+          <div className="text-right space-y-3" data-aos="fade-left">
             <h1 className="text-[#9DE7FF] text-5xl lg:text-[64px] font-medium">
               100+
             </h1>
